@@ -53,7 +53,7 @@ def SPSOGA(Task):
             particle_swarm_server[j], particle_swarm_order[j] = crossover(particle_swarm_server[j],
                                                                           particle_swarm_order[j],
                                                                           gbest_paticle_server,
-                                                                          gbest_paticle_order, c_1)
+                                                                          gbest_paticle_order, c_2)
             # 更新pbest
             energy_cons = particle2energy(Task, pbest_particles_server[j], pbest_particles_order[j])
             if energy_cons < pbest_energy_cons[j]:
