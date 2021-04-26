@@ -4,7 +4,7 @@ class Task(object):
 
         :param subTask: n dimension list
         :param subTask_calculatedAmount: n dimension list
-        :param subTask_dependencyRelationship:
+        :param subTask_dependencyRelationship: n*n matrix
         :param subTask_dataDependency: n*n matrix
         '''
         self.subTask = subTask
