@@ -11,5 +11,3 @@ class Task(object):
         self.subTask_calculatedAmount = subTask_calculatedAmount
         self.subTask_dependencyRelationship = subTask_dependencyRelationship
         self.subTask_dataDependency = subTask_dataDependency
-
-
